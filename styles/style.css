@@ -92,6 +92,7 @@ button {
 	overflow: hidden;
 }
 
+
 span {
 	background: #D6BB0E;
 	width: 0;
@@ -102,6 +103,7 @@ span {
 	bottom: 0;
 	z-index: -1;
 }
+
 
 button:hover span {
 	width: 100%;

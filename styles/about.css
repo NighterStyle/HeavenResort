@@ -11,7 +11,16 @@
 	text-decoration: underline;
 	text-decoration-color: #D6BB0E;
 }
+.content button {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
 
+}
+
+#special {
+	border-color: #e11d48;
+}
 .content h1 {
 	font-size: 100px ;
 	margin-top: 0px;
@@ -25,6 +34,7 @@
 	text-decoration: none;
 
 }
+
 
 
 .info  {
