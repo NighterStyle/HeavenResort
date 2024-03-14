@@ -73,6 +73,11 @@ svg {
 	width: 100%;
 }
 
+.italic {
+	font-style: italic;
+	font-size: 30px;
+}
+
 .content p {
 	margin:20px auto;
 }
