@@ -97,6 +97,15 @@ button {
 	overflow: hidden;
 }
 
+#cazare {
+	border: 2px solid red;
+
+}
+
+#cazareSpan {
+	background: red;
+}
+
 
 span {
 	background: #D6BB0E;
