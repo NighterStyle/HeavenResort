@@ -27,7 +27,7 @@ svg {
 .navbar {
 	width: 100%;
 	margin: auto;
-	padding: 35px 0;
+	padding: 0px 0;
 	display: flex;
 	align-content: center;
 	justify-content: space-between;
@@ -41,7 +41,7 @@ svg {
 	width: 120px;
 	margin-left: 35px;
 	cursor: pointer;
-	padding-top: 5px;
+	padding-top: -2px;
 }
 
 .navbar ul li {
@@ -49,13 +49,15 @@ svg {
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
+	padding-top: 40px;
 
 }
 
 .navbar ul li a{
 	text-decoration: none;
-	color: #fff;
+	color:  #eff5d9  ;
 	text-transform: uppercase;
+	display: text;
 
 }
 
