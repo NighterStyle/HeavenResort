@@ -1,0 +1,43 @@
+html {
+  background-color: #0f172a;
+  overflow: visible;
+}
+.banner2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f172a;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  width: 100%;
+  top: 50%;
+  transform: translateY(-10%);
+  text-align: center;
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #d6bb0e;
+}
+
+.headline h1 {
+  font-size: 80px;
+}
+
+.container {
+  height: 400px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: #ffffff;
+  font-size: 30;
+  text-decoration: none;
+  text-align: center;
+}
+
+strong {
+  color: #d6bb0e;
+}
