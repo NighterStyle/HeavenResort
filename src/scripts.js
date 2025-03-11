@@ -29,3 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
         observer.observe(facility);
     });
 ;
+
+function changeRoom(image) {
+    document.getElementById("roomImg").style.opacity = "0";
+    setTimeout(() => {
+        document.getElementById("roomImg").src = image;
+        document.getElementById("roomImg").style.opacity = "1";
+    }, 300);
+}

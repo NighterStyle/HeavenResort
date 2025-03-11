@@ -1,7 +1,18 @@
+html {
+    scrollbar-width: none; /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
 * {
     margin: 0;
     line-height: calc(1em + 0.5rem);
 	
+}
+a {
+	color: #fff;
 }
 
 body {
@@ -19,7 +30,6 @@ svg {
 .banner {
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(../public/hotel.jpg);
 	background-size: contain;
 	Background-repeat: no-repeat;
 }
@@ -31,8 +41,6 @@ svg {
 	display: flex;
 	align-content: center;
 	justify-content: space-between;
-	
-	
 
 }
 
@@ -55,7 +63,7 @@ svg {
 
 .navbar ul li a{
 	text-decoration: none;
-	color:  #eff5d9  ;
+	color:#3c5b56  ;
 	text-transform: uppercase;
 	display: text;
 

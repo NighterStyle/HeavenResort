@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+	  <link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+	  <link rel="stylesheet" type="text/css" href="./styles/about.css">
+    <link rel="stylesheet" type="text/css" href="./styles/utilities.css" />
+    <link rel="icon" href="./public/logo.png">
+    <script src="./src/scripts.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,201,600,400,700&display=swap" rel="stylesheet">
+    <title>Acasa</title>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <img alt="logo" src="./public/logo.png" class="logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="restaurant.html">Meniu Restaurant</a></li>
+          <li><a href="cotact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="content">
+        <h1>Acasa</h1>
+      </div>
+      <section class="facilities">
+        <div class="sticky-container">
+            <img id="sticky-image" src="./public/poole.jfif" alt="Pool">
+        </div>
+        <div class="scroll-content">
+            <div class="facility" data-img="./public/poole.jfif">
+                <h2>Piscina interioară</h2>
+                <p>Oază de Relaxare și Răsfăț<br>
+                  <br>
+                  Descoperă o experiență unică de relaxare în piscina noastră de lux, concepută pentru confort și rafinament.<br> Apa cristalina și temperatura perfect reglată creează o atmosferă ideală atât pentru înot, cât și pentru momentele de relaxare. Piscina noastră dispune de zone special amenajate cu șezlonguri și umbrele, unde te poți bucura de cocktailuri răcoritoare sau de o lectură relaxantă.
+                  
+                  Pentru cei care iubesc nopțile magice, piscina este iluminată în culori ambientale, oferind un cadru spectaculos pentru înotul de seară. De asemenea, zona de hidromasaj îți va oferi un plus de relaxare, eliberând tensiunea și stresul acumulat.
+                  
+                  Indiferent dacă alegi să înoți în voie sau doar să te relaxezi pe marginea apei, piscina noastră îți garantează o experiență de neuitat.</p>
+            </div>
+            <div class="facility" data-img="./public/spa.webp">
+                <h2>Exclusive Spa</h2>
+                <p>Exclusive Spa – Refugiu pentru Minte și Corp
+                  Bucură-te de un ritual complet de revigorare și relaxare în spa-ul nostru exclusiv, unde fiecare detaliu este creat pentru a-ți oferi o stare de bine. Spa-ul nostru combină tradițiile antice de îngrijire cu tehnologii moderne pentru a-ți oferi o experiență desăvârșită.
+                  Oferim o gamă variată de tratamente, inclusiv masaje terapeutice, saună finlandeză, baie cu aburi, aromaterapie și terapii faciale personalizate. Atmosfera liniștitoare, muzica relaxantă și mirosurile delicate de uleiuri esențiale te vor transporta într-o stare profundă de relaxare.
+                  
+                  Dacă vrei să îți reîncarci bateriile și să scapi de stresul cotidian, spa-ul nostru este locul perfect unde mintea și corpul se armonizează.</p>
+            </div>
+            <div class="facility" data-img="./public/caii.png">
+                <h2>Horse Riding</h2>
+                <p>Horse Riding – Aventură și Libertate în Natură
+                  Descoperă frumusețea echitației și trăiește o experiență autentică alături de caii noștri bine antrenați. Indiferent dacă ești începător sau călăreț experimentat, plimbările noastre călare îți vor oferi momente memorabile în mijlocul naturii.
+                  
+                  Te poți bucura de trasee spectaculoase prin păduri și dealuri, unde liniștea și peisajele încântătoare îți vor oferi o pauză binemeritată de la agitația orașului. Instructorii noștri profesioniști sunt mereu pregătiți să te ghideze și să îți ofere lecții de călărie pentru a-ți îmbunătăți tehnica și încrederea în tine.
+                  
+                  Fie că îți dorești o plimbare relaxantă la apus sau o aventură mai activă, experiența călăriei la noi este una care îți va rămâne în suflet.</p>
+            </div>
+            <div class="facility" data-img="./public/playground.png">
+              <h2>Horse Riding</h2>
+              <p>🐎 Horse Riding – Aventură și Libertate în Natură
+                Descoperă frumusețea echitației și trăiește o experiență autentică alături de caii noștri bine antrenați. Indiferent dacă ești începător sau călăreț experimentat, plimbările noastre călare îți vor oferi momente memorabile în mijlocul naturii.
+                
+                Te poți bucura de trasee spectaculoase prin păduri și dealuri, unde liniștea și peisajele încântătoare îți vor oferi o pauză binemeritată de la agitația orașului. Instructorii noștri profesioniști sunt mereu pregătiți să te ghideze și să îți ofere lecții de călărie pentru a-ți îmbunătăți tehnica și încrederea în tine.
+                
+                Fie că îți dorești o plimbare relaxantă la apus sau o aventură mai activă, experiența călăriei la noi este una care îți va rămâne în suflet.</p>
+          </div>
+        </div>
+      </section>
+      <div class="content">
+      <h1>Camere</h1>
+    </div>
+      <div class="container">
+        <div class="room-list">
+            <div onmouseover="changeRoom('./public/room1.jpg')">Double</div>
+            <div onmouseover="changeRoom('./public/room2.jpg')">Queen</div>
+            <div onmouseover="changeRoom('./public/room3.jpg')">Suite</div>
+        </div>
+        <div class="room-image">
+            <img id="roomImg" src="./public/room1.jpg" alt="Room Image">
+        </div>
+
+
+    </div>
+      <section class="cta-section">
+        <div class="cta-box">
+            <p>Îți place ce ai văzut până acum? Nu mai aștepta, cazează-te apăsând pe butonul de jos!</p>
+            <button class="cta-button">Cazează-te</button>
+        </div>
+        <div class="cta-box small">
+            <button class="offer-button">Oferte</button>
+        </div>
+    </section>
+
+  </body>
+</html>
