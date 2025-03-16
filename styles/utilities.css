@@ -103,11 +103,15 @@ h2 {
 
 .facilities {
     display: flex;
-    align-items: flex-start; /* Așează elementele la început */
-    height: 230vh; /* Mai mult spațiu pentru scroll */
+    align-items: flex-start; 
+    height: 230vh; 
     position: relative;
     padding: 50px;
 
+}
+
+.facility {
+    font-size: larger
 }
 
 .sticky-container {
@@ -124,9 +128,9 @@ h2 {
 
 .sticky-container img {
     width: 100%;
-    height:  100%;  /* Face ca imaginea să umple complet containerul */
-    max-height: none;  /* Elimină restricția de înălțime */
-    object-fit: cover;  /* Asigură că imaginea acoperă întreaga zonă fără black bars */
+    height:  100%;  
+    max-height: none;  
+    object-fit: cover;  
     transition: opacity 0.5s ease-in-out;
     border-radius: 10px;    
 }
@@ -148,14 +152,14 @@ h2 {
     opacity: 0.5;
     transform: translateY(30px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-    min-height: 30vh; /* Secțiunile să fie mai mari */
+    min-height: 30vh; 
 }
 
 .facility.active {
     opacity: 1;
     transform: translateY(0);
 }
-/* Mobile-Friendly Adjustments */
+
 @media (max-width: 768px) {
     .facilities {
         flex-direction: column;
@@ -202,13 +206,13 @@ h2 {
     justify-content: center;
     gap: 20px;
     padding: 50px 20px;
-    background: #0f172a; /* Fundal închis */
+    background: #0f172a; 
 }
 
 .cta-box {
     background: rgba(255, 255, 255, 0.9);
     padding: 30px;
-    border-radius: 50px; /* Face caseta rotundă */
+    border-radius: 50px; 
     text-align: center;
     width: 60%;
     max-width: 600px;
@@ -303,7 +307,8 @@ h2 {
     width: 120%;
 }
 .room-image img {
-    width: 40vw;
+    width: 66vw;
+    margin-left: 30px;
     height: auto;
     border-radius: 10px;
     transition: opacity 0.3s;
@@ -316,9 +321,9 @@ h2 {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column; /* Elemente puse pe verticală */
-    justify-content: center; /* Centrează pe verticală */
-    align-items: center; /* Centrează pe orizontală */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     background: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -357,6 +362,6 @@ h1 {
     font-size: 7rem;
     color: white;
     margin-bottom: 20px;
-    opacity: 0; /* Inițial invizibil */
-    animation: fadeIn 1.5s ease-out forwards; /* Animație smooth */
+    opacity: 0; 
+    animation: fadeIn 1.5s ease-out forwards; 
 }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandă Shaorma</title>
+    <link rel="stylesheet" href="./styles/cazare.css">
+    <link rel="icon" href="./public/logo.png">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,201,600,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cazare Heaven Resort</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="order-form-container">
+            <h2>Completează detalile tale</h2>
+            <form action="#" method="POST" id="orderForm">
+                <div class="form-group">
+                    <label for="nume">Nume:</label>
+                    <input type="text" id="nume" name="nume" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefon">Telefon:</label>
+                    <input type="tel" id="telefon" name="telefon" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Din data de</label>
+                    <input type="date" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Până in data de</label>
+                    <input type="date" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tip_camera">Tip Cameră:</label>
+                    <select id="tip_camera" name="tip_camera" required>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="king">King</option>                     
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="modalitate_plata">Modalitate de plată</label>
+                    <select id="modalitate_plata" name="modalitate_plata" required>
+                        <option value="cash">Numerar</option>
+                        <option value="card">Card</option>
+                        <option value="Bancar">Transfer Bancar</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="comentarii">Comentarii suplimentare:</label>
+                    <textarea id="comentarii" name="comentarii"></textarea>
+                </div>
+                <img src="./public/metodedeplata.png">
+                <button type="submit" class="btn-submit">Cazează-te</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Heaven Resort. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+</body>
+</html>
