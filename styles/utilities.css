@@ -160,45 +160,6 @@ h2 {
     transform: translateY(0);
 }
 
-@media (max-width: 768px) {
-    .facilities {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .sticky-container {
-        width: 100%;
-        height: 40vh;
-    }
-
-    .sticky-container img {
-        max-height: 100%;
-        width: 100%;
-    }
-
-    .scroll-content {
-        width: 100%;
-        height: auto;
-        overflow-x: hidden;
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .facility {
-        min-width: 100%;
-        width: 100%;
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-}
-
 .cta-section {
     display: flex;
     flex-direction: column;
@@ -214,7 +175,7 @@ h2 {
     padding: 30px;
     border-radius: 50px; 
     text-align: center;
-    width: 60%;
+    width: 60vw;
     max-width: 600px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -364,4 +325,81 @@ h1 {
     margin-bottom: 20px;
     opacity: 0; 
     animation: fadeIn 1.5s ease-out forwards; 
+}
+
+.content_home h1 {
+    margin:20px auto;
+    
+}
+.content2 {
+    width: 100%;
+    top: 50%;
+    transform: translateY(-10%);
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #d6bb0e;
+}
+
+@media only screen and (max-width: 1370px) {
+    .content2 {
+        margin-top: 35vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .content2 {
+        margin-top: 1000px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content2 {
+        margin-top: 1700px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .facility {
+        min-width: 200px;
+    }
+    .sticky-container img {
+        min-width: 200px;
+    }
+
+    .content2 {
+        margin-top: 800px;
+    }
+
+    .body {
+        min-width: 1;
+    }
+
+    .room-list div {
+        margin-left: 35vw;
+    }
+
+    .room-image img {
+        min-height: 50vh;
+
+    }
+
+    .small {
+        width: 80%;
+        padding: 15px;
+        max-width: 500px;
+    }
+
+    .cta-section {
+        background: rgba(0, 0, 0, 0);
+        margin: auto;
+
+    }
+
+    .cts-button {
+
+        width: 15vw;
+    }
+
+
 }
