@@ -344,19 +344,19 @@ h1 {
 
 @media only screen and (max-width: 1370px) {
     .content2 {
-        margin-top: 35vw;
+        margin-top: 40vw;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .content2 {
-        margin-top: 40vw;
+        margin-top: 48vw;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .content2 {
-        margin-top: 150vw;
+        margin-top: 175vw;
     }
 }
 
@@ -369,7 +369,7 @@ h1 {
     }
 
     .content2 {
-        margin-top: 800px;
+        margin-top: 1200px;
     }
 
     .body {
