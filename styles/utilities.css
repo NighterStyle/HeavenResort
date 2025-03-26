@@ -273,6 +273,7 @@ h2 {
     height: auto;
     border-radius: 10px;
     transition: opacity 0.3s;
+    max-height: 38vw;
 }
 
 .overlay {
